@@ -9,6 +9,16 @@ NC='\033[0m' # No Color
 must_type_jorvis=1
 take_all_people=1
 
+# if the directory database_message doesn't exist, create it
+if [ ! -d database_message ]; then
+    mkdir database_message
+fi
+
+# if the file config/contact.txt doesn't exist, create it
+if [ ! -f config/contact.txt ]; then
+    touch config/contact.txt
+fi
+
 echo "Jorvis is running..."
 
 function is_registered() {
