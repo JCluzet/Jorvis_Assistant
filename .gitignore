@@ -1,0 +1,7 @@
+config/key_openai.txt
+database_message/message_to_treat.txt
+database_message/messages.txt
+database_message/new_messages.txt
+config/contact.txt
+conv/*
+node_modules/
