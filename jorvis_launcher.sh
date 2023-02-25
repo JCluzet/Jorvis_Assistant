@@ -9,6 +9,11 @@ NC='\033[0m' # No Color
 must_type_jorvis=1
 take_all_people=1
 
+# if the directory conv doesn't exist, create it
+if [ ! -d conv ]; then
+    mkdir conv
+fi
+
 # if the directory database_message doesn't exist, create it
 if [ ! -d database_message ]; then
     mkdir database_message
