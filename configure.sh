@@ -9,7 +9,7 @@ echo "using pip3 install imessage_reader"
 
 clear
 if [ ! -f config/key_openai.txt ]; then
-    echo -ne "Enter your OpenAI API key then type enter: "
+    echo -ne "Enter your OpenAI API key then type enter: \nFind a key here: https://platform.openai.com/account/api-keys : "
     read -r -s key
     echo $key > config/key_openai.txt
 fi
