@@ -2,6 +2,7 @@ echo "using npm install..."
 npm install
 echo "using npm install chatgpt..."
 npm install chatgpt
+echo "using pip3 install imessage_reader"
 
 # if the file config/key_openai.txt is not created, ask to enter the api key of OpenAI
 # if the file config/key_openai.txt is not present
